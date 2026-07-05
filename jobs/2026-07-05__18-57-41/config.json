@@ -1,5 +1,5 @@
 {
-    "job_name": "2026-07-05__12-28-36",
+    "job_name": "2026-07-05__18-57-41",
     "jobs_dir": "jobs",
     "n_attempts": 1,
     "install_only": false,
@@ -15,12 +15,12 @@
         "max_retries": 0,
         "include_exceptions": null,
         "exclude_exceptions": [
-            "AgentTimeoutError",
-            "RewardFileNotFoundError",
-            "ApiUsageLimitError",
+            "VerifierTimeoutError",
             "RewardFileEmptyError",
+            "ApiUsageLimitError",
             "VerifierOutputParseError",
-            "VerifierTimeoutError"
+            "RewardFileNotFoundError",
+            "AgentTimeoutError"
         ],
         "wait_multiplier": 1.0,
         "min_wait_sec": 1.0,
@@ -53,7 +53,7 @@
     "metrics": [],
     "agents": [
         {
-            "name": "oracle",
+            "name": "nop",
             "import_path": null,
             "model_name": null,
             "n_concurrent": null,
@@ -71,7 +71,7 @@
     "datasets": [],
     "tasks": [
         {
-            "path": "log-report",
+            "path": "\\Users\\ASUS-PC\\Downloads\\fix-task-broken\\log-report",
             "git_url": null,
             "git_commit_id": null,
             "name": null,

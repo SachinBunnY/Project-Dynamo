@@ -1,3 +1,4 @@
+version = "1.0"
 artifacts = ["/app/report.json"]
 
 [task]
@@ -30,3 +31,4 @@ storage_mb = 10240
 gpus = 0
 allow_internet = true
 mcp_servers = []
+
